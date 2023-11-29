@@ -11,6 +11,11 @@ body {
    
 }
 
+body > header {
+    position: sticky;
+    top: 0;
+}
+
 .header{
     font-size: large;
     list-style: none;
@@ -33,16 +38,17 @@ a:hover{
     background-color: rgb(225, 211, 252);
     color: #5c5c5c;
 }
+
 .corp {
     background-color: rgb(225, 211, 252);
-    display: inline-flex;
-    
+    display: inline-flex;    
 }
+
 .photomoi {
     width: 35%;
     height: auto;
-    
 }
+
 article {
     padding: 2rem;
     text-align: left;
@@ -62,4 +68,14 @@ h3{
 }
 p{
     font-size: 140%;
+}
+
+@media (max-width: 400px) {
+    .corp {
+        flex-wrap: wrap;
+    }
+
+    .photomoi {
+        width: 100%;
+    }
 }

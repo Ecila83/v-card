@@ -21,3 +21,14 @@ section {
 .ligne > article {
     background-color: rgb(225, 211, 252);
 }
+
+@media (max-width: 400px) {
+    .ligne:nth-child(2n + 1) {
+        flex-direction: 
+        column-reverse;
+    } 
+
+    .ligne {
+        flex-direction: column;
+    }
+}
