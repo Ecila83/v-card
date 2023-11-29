@@ -1,0 +1,23 @@
+section {
+    background-color: rgb(225, 211, 252);
+    display: flex;
+}
+
+.ligne {
+    display: flex;
+}
+
+.ligne > * {
+    padding: 2rem;
+    flex: 1 1 0;
+    /*flex-grow, flex-shrink, flex-basis*/
+}
+
+.ligne > .img-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.ligne > article {
+    background-color: rgb(225, 211, 252);
+}

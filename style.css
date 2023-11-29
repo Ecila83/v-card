@@ -63,35 +63,3 @@ h3{
 p{
     font-size: 140%;
 }
-
-/*page2*/
-
-section {
-    background-color: rgb(225, 211, 252);
-    display: flex;
-   
-
-}
-.formation{
-    display: flex;
-    flex-wrap: wrap;
-    
-}
-.langage{
-    display: flex;
-
-}
-.soft-skills{
-    display: flex;
-
-}
-
-#form {
-    width: 33%;
-    height: auto;
-}
-#lang {
-    width: 33%;
-    height: auto;
-}
-
